@@ -3,12 +3,12 @@
     "info": {
         "description": "APIs for Event Processing",
         "version": "1.0.0",
-        "title": "AITrust API"
+        "title": "Event API"
     },
     "tags": [
         {
             "name": "EventProcessor",
-            "description": "Management of AITrust Asset"
+            "description": "Management of Event Asset"
         }
     ],
     "schemes": [
@@ -122,7 +122,7 @@
                     "Event"
                 ],
                 "summary": "Update an existing Event",
-                "description": "Update specific attributes of an AITrust asset.   Other than the `assetUUID` and `assetType` all other properties can be modified.   Only the property specified during this API call will be modified.  The rest of the properties of the asset will remain the same.  ",
+                "description": "Update specific attributes of an Event asset.   Other than the `assetUUID` and `assetType` all other properties can be modified.   Only the property specified during this API call will be modified.  The rest of the properties of the asset will remain the same.  ",
                 "operationId": "updateAsset",
                 "consumes": [
                     "application/json"

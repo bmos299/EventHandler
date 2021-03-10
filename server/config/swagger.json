@@ -1,14 +1,14 @@
 {
     "swagger": "2.0",
     "info": {
-        "description": "APIs for AITrust PoC",
+        "description": "APIs for Event PoC",
         "version": "1.0.0",
-        "title": "AITrust API"
+        "title": "Event API"
     },
     "tags": [
         {
-            "name": "AITrustAsset",
-            "description": "Management of AITrust Asset"
+            "name": "EventAsset",
+            "description": "Management of Event Asset"
         }
     ],
     "schemes": [
@@ -16,12 +16,12 @@
         "https"
     ],
     "paths": {
-        "/AITrustAssets": {
+        "/EventAssets": {
             "post": {
                 "tags": [
-                    "AITrustAsset"
+                    "EventAsset"
                 ],
-                "summary": "Create new AITrustAsset",
+                "summary": "Create new EventAsset",
                 "description": "",
                 "operationId": "createAsset",
                 "consumes": [
@@ -46,10 +46,10 @@
                     {
                         "in": "body",
                         "name": "body",
-                        "description": "AITrustAsset to create",
+                        "description": "EventAsset to create",
                         "required": true,
                         "schema": {
-                            "$ref": "#/definitions/AITrustAsset"
+                            "$ref": "#/definitions/EventAsset"
                         }
                     }
                 ],
@@ -61,9 +61,9 @@
             },
             "get": {
                 "tags": [
-                    "AITrustAsset"
+                    "EventAsset"
                 ],
-                "summary": "Finds AITrustAsset by type and owner",
+                "summary": "Finds EventAsset by type and owner",
                 "description": "",
                 "operationId": "findByType",
                 "produces": [
@@ -107,7 +107,7 @@
                     "200": {
                         "description": "successful operation",
                         "schema": {
-                            "$ref": "#/definitions/AITrustAsset"
+                            "$ref": "#/definitions/EventAsset"
                         }
                     },
                     "400": {
@@ -116,13 +116,13 @@
                 }
             }
         },
-        "/AITrustAssets/{assetUUID}": {
+        "/EventAssets/{assetUUID}": {
             "patch": {
                 "tags": [
-                    "AITrustAsset"
+                    "EventAsset"
                 ],
-                "summary": "Update an existing AITrustAsset",
-                "description": "Update specific attributes of an AITrust asset.   Other than the `assetUUID` and `assetType` all other properties can be modified.   Only the property specified during this API call will be modified.  The rest of the properties of the asset will remain the same.  ",
+                "summary": "Update an existing EventAsset",
+                "description": "Update specific attributes of an Event asset.   Other than the `assetUUID` and `assetType` all other properties can be modified.   Only the property specified during this API call will be modified.  The rest of the properties of the asset will remain the same.  ",
                 "operationId": "updateAsset",
                 "consumes": [
                     "application/json"
@@ -153,10 +153,10 @@
                     {
                         "in": "body",
                         "name": "body",
-                        "description": "Attributes to update from existing AITrustAsset",
+                        "description": "Attributes to update from existing EventAsset",
                         "required": true,
                         "schema": {
-                            "$ref": "#/definitions/AITrustAsset"
+                            "$ref": "#/definitions/EventAsset"
                         }
                     }
                 ],
@@ -165,7 +165,7 @@
                         "description": "Invalid ID supplied"
                     },
                     "404": {
-                        "description": "AITrustAsset not found"
+                        "description": "EventAsset not found"
                     },
                     "405": {
                         "description": "Invalid input"
@@ -174,11 +174,11 @@
             },
             "get": {
                 "tags": [
-                    "AITrustAsset"
+                    "EventAsset"
                 ],
-                "summary": "Find AITrustAsset by ID",
-                "description": "Returns a single AITrustAsset",
-                "operationId": "getAITrustAssetByID",
+                "summary": "Find EventAsset by ID",
+                "description": "Returns a single EventAsset",
+                "operationId": "getEventAssetByID",
                 "produces": [
                     "application/json"
                 ],
@@ -207,24 +207,24 @@
                     "200": {
                         "description": "successful operation",
                         "schema": {
-                            "$ref": "#/definitions/AITrustAsset"
+                            "$ref": "#/definitions/EventAsset"
                         }
                     },
                     "400": {
                         "description": "Invalid ID supplied"
                     },
                     "404": {
-                        "description": "AITrustAsset not found"
+                        "description": "EventAsset not found"
                     }
                 }
             },
             "delete": {
                 "tags": [
-                    "AITrustAsset"
+                    "EventAsset"
                 ],
-                "summary": "Delete AITrustAsset by ID",
-                "description": "Deletes AITrustAsset",
-                "operationId": "deleteAITrustAssetByID",
+                "summary": "Delete EventAsset by ID",
+                "description": "Deletes EventAsset",
+                "operationId": "deleteEventAssetByID",
                 "produces": [
                     "application/json"
                 ],
@@ -253,21 +253,21 @@
                     "200": {
                         "description": "successful operation",
                         "schema": {
-                            "$ref": "#/definitions/AITrustAsset"
+                            "$ref": "#/definitions/EventAsset"
                         }
                     },
                     "400": {
                         "description": "Invalid ID supplied"
                     },
                     "404": {
-                        "description": "AITrustAsset not found"
+                        "description": "EventAsset not found"
                     }
                 }
             }
         }
     },
     "definitions": {
-        "AITrustAsset": {
+        "EventAsset": {
             "type": "object",
             "required": [
                 "assetType",
