@@ -1,0 +1,19 @@
+{
+    "channel_name": "aitrust",
+    "smart_contract_name": "aitrust-assets",
+    "appAdmin": "admin",
+    "appAdminSecret": "adminpw",
+    "Org1": {
+        "connection_file": "connection_profile_org1.json",
+        "orgMSPID": "Org1MSP",
+        "caName": "aitrustorg1-org1ca-ca.aitrust2-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud:443",
+        "peerName": "aitrustorg1-org1peer-peer.aitrust2-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud:443"
+    },
+    "Org2": {
+        "connection_file": "connection_profile_org2.json",
+        "orgMSPID": "Org2MSP",
+        "caName": "aitrustorg2-org2ca-ca.aitrust2-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud:443",
+        "peerName": "aitrustorg2-org2peer-peer.aitrust2-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud:443"
+    },
+    "gatewayDiscovery": { "enabled": true, "asLocalhost": false }
+ }

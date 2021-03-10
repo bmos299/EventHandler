@@ -1,0 +1,23 @@
+{
+    "assetType": "Data",
+    "propertyHashes": {
+        "assetHash": "",
+        "assetHashInfo": ""
+    },
+    "propertyValues": {
+        "assetPlainText": "PLAINTEXT",
+        "assetSchema": "SCHEMA",
+        "requestedModel": "MODEL_UUID"
+  },
+  "sourceAssets": [
+    "BaseAsset"
+  ],
+  "transformationType": "Aggregation",
+  "transformationInfo": {
+    "description": "COMMENT",
+    "additionalProp": ""
+  },
+  "otherInfo": [
+    ""
+  ]
+}

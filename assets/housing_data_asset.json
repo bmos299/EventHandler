@@ -1,0 +1,27 @@
+{
+  "assetType": "Data",
+  "assetUUID": "c57e5b80-1a15-11eb-a43f-93935bc60528",
+  "assetHashes": {
+    "assetHash": "CategoricalFeatures:\n  - [Alley, b62d0d2376e8f202b507754cc0a83f44f3bc80b6b3927]\n  - [Lot.Shape, e8a1a1ef005e86246b800040de35b52626e03400d3ecb]\n  - [Land.Contour, d2feee104a1bd78c9259e558416a950e60cf66e160498]\n  - [Utilities, 5ad1a54c4765750d54acf66316eb2e978666f18ca944c]\n  - [Neighborhood, bb595d3f91956de79cfc2ca19eedcfe912f5074d12608]\nIntegerFeatures:\n  - [MS.SubClass, 76426a9cb9a49005d548545801d41b31b79ff8354f3cd]\n  - [Lot.Area, 646ad3dd1f31f1765d93aff2223ed12b0a588e070642]\n  - [Overall.Qual, cb9b2524144dd38d321e537b1e002669469f43e016aae]\n  - [Overall.Cond, 1ddde4ccfc211ad920c7702b612a26fc253679ef31485]\n  - [Year.Built, 7bd55a0d0bab625a118035a1eba290b9bab23932ac142]\n  - [Year.Remod.Add, 3a8144419e790d231de9e3be502f38bcf2bb7a5908e23]\n  - [Mas.Vnr.Area, 35080759d61fd9a79c2983e61457cfa5e3fd6bfe5c4c]\n  - [BsmtFin.SF.1, 304a1e670f0d06908569859a27ea7b4a34ce211492e50]\n  - [BsmtFin.SF.2, 120cd70a64a2b278d29396d57a819091bef5f69920365]\n  - [Bsmt.Unf.SF, 903b6ca90f4d90e5041431d200384b528f2fb2d34fa1f]\n  - [X1st.Flr.SF, 14fe4afb63c0fe586c9b3b69b44afd976b7626f28b968]\n  - [X2nd.Flr.SF, 3be122222a19abc230df1b35142a4186cb0ca87ca8cd0]\n  - [Low.Qual.Fin.SF, 1101fa28e04e83b83a83c3db6048acb7931cb15b20be3]\n  - [Bsmt.Full.Bath, 42d75f6ee9fab754de01a6c9405ee041a794fc8cf5700]\n  - [Bsmt.Half.Bath, 23cfee3e49f544ab944a0d6f451261fafc65d9f814124]\n  - [Full.Bath, 8a55124042b1a0ce6ed21ffd64fd7a77762a2688ff11]\n  - [Half.Bath, b7953c3dfcbf3ef549afa5aa3381e7d6ca3baab592acf]\n  - [Bedroom.AbvGr, 6e1cc95b5f1694b31d3c4eed84a8c06e3036345d4ceed]\n  - [Kitchen.AbvGr, 41af793ab2ef7ee61ee0c3957681f5fdd1ef74bbe706a]\n  - [TotRms.AbvGrd, ac337d8ea21aa81349920faff3dd83107b36aea49a9f3]\n  - [SalePrice, b73282e3af9348b388927d8e43511ea15f5ed136593a5]\nLevelsMap:\n  Alley:\n    - [Grvl, 1]\n    - [Pave, 2]\n    - [UNKNOWN, 3]\n  Lot.Shape:\n    - [IR1, 1]\n    - [IR2, 2]\n    - [IR3, 3]\n    - [Reg, 4]\n  Land.Contour:\n    - [Bnk, 1]\n    - [HLS, 2]\n    - [Low, 3]\n    - [Lvl, 4]\n  Utilities:\n    - [AllPub, 1]\n    - [NoSewr, 2]\n  Neighborhood:\n    - [Blmngtn, 1]\n    - [Blueste, 2]\n    - [BrDale, 3]\n    - [BrkSide, 4]\n    - [ClearCr, 5]\n    - [CollgCr, 6]\n    - [Crawfor, 7]\n    - [Edwards, 8]\n    - [Gilbert, 9]\n    - [Greens, 10]\n    - [GrnHill, 11]\n    - [IDOTRR, 12]\n    - [Landmrk, 13]\n    - [MeadowV, 14]\n    - [Mitchel, 15]\n    - [NAmes, 16]\n    - [NPkVill, 17]\n    - [NWAmes, 18]\n    - [NoRidge, 19]\n    - [NridgHt, 20]\n    - [OldTown, 21]\n    - [SWISU, 22]\n    - [Sawyer, 23]\n    - [SawyerW, 24]\n    - [Somerst, 25]\n    - [StoneBr, 26]\n    - [Timber, 27]\n    - [Veenker, 28]",
+    "assetHashInfo": "MiMC-64 Rounds, 181-bit"
+  },
+  "plainTextContent": {
+    "assetPlainText": "",
+    "assetSchema": "---\nCategoricalFeatures:\n    - Alley\n    - Lot.Shape\n    - Land.Contour\n    - Utilities\n    - Neighborhood\nIntegerFeatures:\n    - MS.SubClass\n    - Lot.Area \n    - Overall.Qual\n    - Overall.Cond    \n    - Year.Built      \n    - Year.Remod.Add  \n    - Mas.Vnr.Area\n    - BsmtFin.SF.1\n    - BsmtFin.SF.2\n    - Bsmt.Unf.SF     \n    - X1st.Flr.SF\n    - X2nd.Flr.SF\n    - Low.Qual.Fin.SF\n    - Bsmt.Full.Bath\n    - Bsmt.Half.Bath \n    - Full.Bath\n    - Half.Bath\n    - Bedroom.AbvGr\n    - Kitchen.AbvGr   \n    - TotRms.AbvGrd\n    - SalePrice",
+    "additionalProp": ""
+  },
+  "lineageInfo": {
+    "sourceAssets": [
+      "BaseAsset"
+    ],
+    "transformationType": "Aggregation",
+    "transformationInfo": {
+      "description": "Data for AMES Housing",
+      "additionslProp": ""
+    }
+  },
+  "otherInfo": [
+    ""
+  ],
+  "assetOwner": "Org1MSP"
+}

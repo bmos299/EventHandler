@@ -1,0 +1,24 @@
+{
+    "assetType": "Linear_Mode",
+    "propertyHashes": {
+        "assetHash": "ASSET_HASH",
+        "assetHashInfo": "MiMC-64 rounds, 181-bit"
+    },
+    "propertyValues": {
+        "assetPlainText": "",
+        "assetSchema": "SCHEMA",
+        "additionalProp": ""
+  },
+  "sourceAssets": [
+    "SOURCE_ASSET"
+  ],
+  "transformationType": "LinearRegressionTraining",
+  "transformationInfo": {
+    "description": "COMMENT",
+    "MetricR2": "PERFORMANCE",
+    "additionalProp": ""
+  },
+  "otherInfo": [
+    "ZK_PROOF"
+  ]
+}

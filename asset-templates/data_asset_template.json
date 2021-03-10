@@ -1,0 +1,23 @@
+{
+    "assetType": "Data",
+    "propertyHashes": {
+        "assetHash": "ASSET_HASH",
+        "assetHashInfo": "MiMC-64 Rounds, 181-bit"
+    },
+    "propertyValues": {
+        "assetPlainText": "",
+        "assetSchema": "SCHEMA",
+        "additionalProp": ""
+  },
+  "sourceAssets": [
+    "BaseAsset"
+  ],
+  "transformationType": "Aggregation",
+  "transformationInfo": {
+    "description": "COMMENT",
+    "additionalProp": ""
+  },
+  "otherInfo": [
+    ""
+  ]
+}

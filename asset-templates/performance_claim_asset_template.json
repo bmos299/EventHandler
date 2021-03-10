@@ -1,0 +1,25 @@
+{
+    "assetType": "Performance_Claim",
+    "propertyHashes": {
+        "assetHash": "",
+        "assetHashInfo": ""
+    },
+    "propertyValues": {
+        "assetPlainText": "",
+        "assetSchema": "SCHEMA",
+        "additionalProp": ""
+  },
+  "sourceAssets": [
+    "SOURCE_MODEL_UUID",
+    "SOURCE_DATA_UUID"
+  ],
+  "transformationType": "LinearRegressionTraining",
+  "transformationInfo": {
+    "description": "COMMENT",
+    "MetricR2": "PERFORMANCE",
+    "additionalProp": ""
+  },
+  "otherInfo": [
+    "ZK_PROOF"
+  ]
+}

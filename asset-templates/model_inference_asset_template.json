@@ -1,0 +1,24 @@
+{
+    "assetType": "Model_Inference",
+    "propertyHashes": {
+        "assetHash": "",
+        "assetHashInfo": ""
+    },
+    "propertyValues": {
+        "assetPlainText": "PREDICTIONS",
+        "assetSchema": "SCHEMA",
+        "additionalProp": ""
+  },
+  "sourceAssets": [
+    "SOURCE_ASSET_MODEL",
+    "SOURCE_ASSET_DATA"
+  ],
+  "transformationType": "LinearRegressionTraining",
+  "transformationInfo": {
+    "description": "COMMENT",
+    "additionalProp": ""
+  },
+  "otherInfo": [
+    "ZK_PROOF"
+  ]
+}

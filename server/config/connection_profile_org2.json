@@ -1,0 +1,41 @@
+{
+    "name": "Org2MSPprofile",
+    "description": "Network on IBP v2",
+    "version": "1.0.0",
+    "client": {
+        "organization": "Org2MSP"
+    },
+    "organizations": {
+        "Org2MSP": {
+            "mspid": "Org2MSP",
+            "certificateAuthorities": [
+                "aitrustorg2-org2ca-ca.aitrust2-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud:443"
+            ],
+            "peers": [
+                "aitrustorg2-org2peer-peer.aitrust2-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud:443"
+            ]
+        }
+    },
+    "peers": {
+        "aitrustorg2-org2peer-peer.aitrust2-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud:443": {
+            "url": "grpcs://aitrustorg2-org2peer-peer.aitrust2-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud:443",
+            "tlsCACerts": {
+                "pem": "-----BEGIN CERTIFICATE-----\nMIIB/jCCAaSgAwIBAgIURilhsWjJnC91xjKIVvNrxr/fYYgwCgYIKoZIzj0EAwIw\nXTELMAkGA1UEBhMCVVMxFzAVBgNVBAgTDk5vcnRoIENhcm9saW5hMRQwEgYDVQQK\nEwtIeXBlcmxlZGdlcjEPMA0GA1UECxMGRmFicmljMQ4wDAYDVQQDEwV0bHNjYTAe\nFw0yMDEwMDUyMTI2MDBaFw0zNTEwMDIyMTI2MDBaMF0xCzAJBgNVBAYTAlVTMRcw\nFQYDVQQIEw5Ob3J0aCBDYXJvbGluYTEUMBIGA1UEChMLSHlwZXJsZWRnZXIxDzAN\nBgNVBAsTBkZhYnJpYzEOMAwGA1UEAxMFdGxzY2EwWTATBgcqhkjOPQIBBggqhkjO\nPQMBBwNCAASQf8YF3SIu3ndVZNHB0GSUDWUAGbkZpYN6/SAIK3oB8NPGIzfuVMas\nIuFpM/J52jQ5fCTqnajKD9ZVdQE7ii1Vo0IwQDAOBgNVHQ8BAf8EBAMCAQYwDwYD\nVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQU2Rh25L/db2dyI3L/5pC0N8pg2lYwCgYI\nKoZIzj0EAwIDSAAwRQIhAPHWZVf57488Ain+moQGclVbVmRguJxEoyqYw4tDu3bi\nAiBNKdKwGe1tFo81aihKVzUSaNpyKMY7Ml/bDwLDV7Xg3w==\n-----END CERTIFICATE-----\n"
+            },
+            "grpcOptions": {
+                "ssl-target-name-override": "aitrustorg2-org2peer-peer.aitrust2-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud"
+            }
+        }
+    },
+    "certificateAuthorities": {
+        "aitrustorg2-org2ca-ca.aitrust2-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud:443": {
+            "url": "https://aitrustorg2-org2ca-ca.aitrust2-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud:443",
+            "caName": "ca",
+            "tlsCACerts": {
+                "pem": [
+                    "-----BEGIN CERTIFICATE-----\nMIIDiTCCAy+gAwIBAgIRALJ6YS2HlmjZJz/ckrLjWWowCgYIKoZIzj0EAwIwgc0x\nCzAJBgNVBAYTAlVTMRcwFQYDVQQIEw5Ob3J0aCBDYXJvbGluYTEPMA0GA1UEBxMG\nRHVyaGFtMQwwCgYDVQQKEwNJQk0xEzARBgNVBAsTCkJsb2NrY2hhaW4xcTBvBgNV\nBAMTaGFpdHJ1c3RvcmcyLW9yZzJjYS1jYS5haXRydXN0Mi0xYWJkODY2YTY1YTZh\nNzMzNTA5MDM4MjNmYzc3Y2Q1Zi0wMDAwLnVzLXNvdXRoLmNvbnRhaW5lcnMuYXBw\nZG9tYWluLmNsb3VkMB4XDTIwMTAwNTIxMzAzMloXDTMwMTAwMzIxMzAzMlowgc0x\nCzAJBgNVBAYTAlVTMRcwFQYDVQQIEw5Ob3J0aCBDYXJvbGluYTEPMA0GA1UEBxMG\nRHVyaGFtMQwwCgYDVQQKEwNJQk0xEzARBgNVBAsTCkJsb2NrY2hhaW4xcTBvBgNV\nBAMTaGFpdHJ1c3RvcmcyLW9yZzJjYS1jYS5haXRydXN0Mi0xYWJkODY2YTY1YTZh\nNzMzNTA5MDM4MjNmYzc3Y2Q1Zi0wMDAwLnVzLXNvdXRoLmNvbnRhaW5lcnMuYXBw\nZG9tYWluLmNsb3VkMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEouRPv0pzYEK2\n5oXziSnQi6qFsQ/1wI0n7NnsQC/ZskrF19WvWIO3skCyXKgi6gOGcisV7rPy56cr\n+lbr1r/CaqOB7TCB6jCB5wYDVR0RBIHfMIHcgmhhaXRydXN0b3JnMi1vcmcyY2Et\nY2EuYWl0cnVzdDItMWFiZDg2NmE2NWE2YTczMzUwOTAzODIzZmM3N2NkNWYtMDAw\nMC51cy1zb3V0aC5jb250YWluZXJzLmFwcGRvbWFpbi5jbG91ZIJwYWl0cnVzdG9y\nZzItb3JnMmNhLW9wZXJhdGlvbnMuYWl0cnVzdDItMWFiZDg2NmE2NWE2YTczMzUw\nOTAzODIzZmM3N2NkNWYtMDAwMC51cy1zb3V0aC5jb250YWluZXJzLmFwcGRvbWFp\nbi5jbG91ZDAKBggqhkjOPQQDAgNIADBFAiA+osiIVQZNeBkgYog+2mbWI3HX9gWi\nt0gHKYKbZ6Gn+wIhAOCScHoPsuiYVJdosuRj9oUtiJfuHK9+5KENIwlOIRJi\n-----END CERTIFICATE-----\n"
+                ]
+            }
+        }
+    }
+}
